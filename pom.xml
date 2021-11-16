@@ -48,9 +48,9 @@
   <inceptionYear>2021</inceptionYear>
 
   <scm>
-    <url>https://github.com/netty/netty-contrib-codec-xml</url>
-    <connection>scm:git:git://github.com/netty/netty-contrib-codec-xml.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com/netty/netty-contrib-codec-xml.git</developerConnection>
+    <url>https://github.com/netty-contrib/template</url>
+    <connection>scm:git:git://github.com/netty-contrib/template.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/netty-contrib/template.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
 
