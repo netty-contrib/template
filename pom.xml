@@ -49,8 +49,8 @@
 
   <scm>
     <url>https://github.com/netty-contrib/template</url>
-    <connection>scm:git:git://github.com/netty-contrib/template.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com/netty-contrib/template.git</developerConnection>
+    <connection>scm:git:https://github.com/netty-contrib/template.git</connection>
+    <developerConnection>scm:git:https://github.com/netty-contrib/template.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
 
@@ -69,6 +69,7 @@
     <javaModuleName>io.netty.contrib.template</javaModuleName>
     <netty.version>5.0.0.Final-SNAPSHOT</netty.version>
     <netty.build.version>29</netty.build.version>
+    <project.scm.id>github</project.scm.id>
     <release.gpg.keyname />
     <release.gpg.passphrase />
     <test.argLine>-D_</test.argLine>
