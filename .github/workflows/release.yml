@@ -39,17 +39,18 @@ jobs:
       - name: Configure Maven Release Repository
         uses: s4u/maven-settings-action@v2
         with:
-          githubServer: false
+#          githubServer: false
           servers: |
             [{
               "id": "sonatype-nexus",
               "username": "${{ secrets.SONATYPE_USERNAME }}",
               "password": "${{ secrets.SONATYPE_PASSWORD }}"
-            },{
-              "id": "github",
-              "username": "${{ github.actor }}",
-              "password": "${{ secrets.GITHUB_TOKEN }}"
             }]
+#            },{
+#              "id": "github",
+#              "username": "${{ github.actor }}",
+#              "password": "${{ secrets.GITHUB_TOKEN }}"
+#            }]
 
       # See https://docs.github.com/en/actions/learn-github-actions/workflow-commands-for-github-actions#setting-an-environment-variable
       - name: Inspect Project
